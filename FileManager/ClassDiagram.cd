@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FileManager.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAABAAgAYAAAAAAAAIAAgBAEAAAAgABABAAA=</HashCode>
+      <FileName>App\App.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.AppData" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Data\AppData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.AppHelper" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\AppHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.AppSettings" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACABAAAAAgAAAAAAgAAgAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>App\AppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.Button" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAABAAABQIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Button\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.ButtonFactory" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>UI\Button\ButtonFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.Coordinates" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAEAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>UI\Base\Coordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogCopyTemplate" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogCopyTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogCreateTemplate" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogCreateTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogData" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\DialogData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogDeleteTemplate" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogDeleteTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogErrorTemplate" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogErrorTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogHelpTemplate" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogHelpTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogInfoTemplate" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogInfoTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogMoveTemplate" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogMoveTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogRenameTemplate" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogRenameTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogSearchTemplate" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Dialog\Templates\DialogSearchTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.DialogViewFactory" Collapsed="true">
+    <Position X="3.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAAEAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Factory\DialogViewFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.Dimensions" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAAAAQAEAAEAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Base\Dimensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.ErrorLogToFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Log\ErrorLogToFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.FOBase" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>Opeations\FOBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FOCopy" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAABAAAAAAAACAAA=</HashCode>
+      <FileName>Opeations\FOCopy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FOCreate" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACAAAAAAAAAEAAAAAAAgAAAAA=</HashCode>
+      <FileName>Opeations\FOCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FOData" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAEAAAAAABCAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Opeations\FOData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FODelete" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgQAAAAAAAAAAAEAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Opeations\FODelete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FOInfo" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAARAAAAAAAAIAAAAABA=</HashCode>
+      <FileName>Opeations\FOInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FolderHelper" Collapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAgAAA=</HashCode>
+      <FileName>Helpers\FolderHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FolderInfo" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAABAAIA=</HashCode>
+      <FileName>Opeations\FolderInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FolderItem" Collapsed="true">
+    <Position X="8.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAIAEAAgAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Folder\FolderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FolderItemBase" Collapsed="true">
+    <Position X="8.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Folder\FolderItemBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FolderNavigation" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Folder\FolderNavigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FolderViewEngene" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABCCoQAUAAAAAAAEAACAAAAAEAAAAAAACA=</HashCode>
+      <FileName>UI\Views\Folder\FolderViewEngene.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.FolderViewFactory" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAIgIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Factory\FolderViewFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FOMove" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Opeations\FOMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.FORename" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Opeations\FORename.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.InfoViewFactory" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAIAAAAAAEAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Factory\InfoViewFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.Program" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.ReadFromAppSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Reader\ReadFromAppSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.SaveToAppSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Writer\SaveToAppSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.SetCursorToDefaultPosition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\MessageBus\SetCursorToDefaultPosition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.StringHelper" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAQAAAgBAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\StringHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.UIBase" Collapsed="true">
+    <Position X="4.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Base\UIBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.UIBox" Collapsed="true">
+    <Position X="5.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAAAAAAgAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Primitives\UIBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileManager.UIBoxStyle" Collapsed="true">
+    <Position X="13.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAAACAAAIAAAAAAABABAAAAAAgAAIIAAEAAAAAA=</HashCode>
+      <FileName>UI\Primitives\UIBoxStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.UIDialogView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBBAAACCAAAACoAAAEABAAAAEAAEABAABAAoAAAgAAA=</HashCode>
+      <FileName>UI\Views\Dialog\UIDialogView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.UIFactory&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Factory\UIFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.UIFolderView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAACoABEMADEAQAEAAEACSAAAgAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Folder\UIFolderView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.UIInfoView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACoAAAEABAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Views\Info\UIInfoView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileManager.UILine" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Primitives\UILine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileManager.UILineStyle" Collapsed="true">
+    <Position X="11.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAgAAACA=</HashCode>
+      <FileName>UI\Primitives\UILineStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.UISettings" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>App\UISettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.UIStyle" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Base\UIStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager.Properties.Settings" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgAAAEgACAAAAAAAAIAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FileManager.IConsoleCommand" Collapsed="true">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IConsoleCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileManager.IContent" Collapsed="true">
+    <Position X="26.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IContent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileManager.IDraw" Collapsed="true">
+    <Position X="28.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileManager.IErrorLog" Collapsed="true">
+    <Position X="30" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Log\IErrorLog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileManager.IMessage" Collapsed="true">
+    <Position X="31.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\MessageBus\IMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileManager.ISettingsReader" Collapsed="true">
+    <Position X="24.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Reader\ISettingsReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileManager.ISettingsWriter" Collapsed="true">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Writer\ISettingsWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FileManager.ButtonBehavior" Collapsed="true">
+    <Position X="24.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>UI\Button\ButtonBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FileManager.ButtonType" Collapsed="true">
+    <Position X="26.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAARAAQAAAAAAAAJAAAAAAAAAAAAAAAAABAECA=</HashCode>
+      <FileName>UI\Button\ButtonType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FileManager.FolderItemType" Collapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAEgAAAAAAAEAAABAA=</HashCode>
+      <FileName>UI\Views\Folder\FolderItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
